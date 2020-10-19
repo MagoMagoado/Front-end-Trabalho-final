@@ -1,3 +1,16 @@
+/*------- Configurações Iniciais ------*/
+html,body{
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+/*-------------------------------------*/
 .header {
     background-color: rgba(247, 147, 0);
     height: 20em;
@@ -31,13 +44,89 @@ h1 {
 .navbar-light .nav-item:hover .nav-link {
     color: #ffffff;
 }
+.card{
+    cursor: pointer;
+}
+
+/*-------------Estrela-----------------*/
+.card i{
+    position: absolute;
+    right: 10px; top: 10px;
+    font-size: 1.1rem;
+}
+
+.card i:hover{
+    color: orange;
+}
+/*-------------------------------------*/
+
+/*--------------Modal------------------*/
+.modal-header{
+    border:unset;
+    padding-bottom: 0px; margin-bottom: 0px;
+}
+
+.modal-body{
+    width: 100%;
+    display: flex;
+}
+
+.modal-title{
+    margin-left: 10px;
+}
+.modal-title p{
+    color: orange;
+    margin: 0px;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.modal-title small{
+    margin: 0px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.modal-title small::after{
+    content:"";
+    position: absolute;
+    left:0px; bottom: 0px;
+    width: 100px;
+    height: 8px;
+    background-color:rgb(167, 8, 167);
+}
+
+.porcent{
+    margin-top: 20px;
+}
+
+.porcent p{
+    font-weight: bolder;
+    font-size: .9rem;
+    color: rgb(73, 72, 72);
+}
+
+.porcent span{
+    margin-right: 10px;
+    font-size: .8rem;
+    color:rgb(173, 173, 173);
+}
+
+.modal-title .text-justify{
+    margin-top: 10px;
+    font-size: .8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(95, 95, 95);
+    font-weight: normal;
+}
+/*-------------------------------------*/
 
 .card-title {
     color: orange;
+    font-size: 1.5rem;
     font-weight: bold;
     text-align: center;
 }
-
 .card-text {
     text-align: center;
 }

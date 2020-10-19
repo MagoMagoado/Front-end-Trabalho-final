@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Awesome font, link do site para usar a estrela no card-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <title>The Beer Bank - Favourite</title>
+</head>
+
+<body>
+    <div class="header">
+        <nav class="navbar  navbar-expand-lg fixed-top navbar-light bg-ligh menu">
+
+            <ul class="navbar-nav ml-auto">
+
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item ">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="favourite.html">Favourite <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+        </nav>
+        <div class="d-flex flex-column bg-dark titulo">
+            <h1 class="align-self-center">The Bear Bank</h1>
+            <h2 class="align-self-center">Find your favorite bear herer</h2>
+            <div class="input-group col-md-4 align-self-center">
+                <input class="form-control py-2" type="search" value="search" id="example-search-input">
+            </div>
+
+        </div>
+
+    </div>
+    <!--- Cards para exibição das cervejas-->
+    <div class="cartoes-cervejas row container-fluid mt-4">
+        <div class="row justify-content-center">
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <i class="far fa-star"></i>
+                    <img class="card-img-top" data-toggle="modal" data-target="#modalCard1" src="img/trashy-blonde.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-title">TÍTULO</p>
+                        <p class="card-text"><small class="text-muted">legenda do card</small></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal card1-->
+            <div class="modal fade" id="modalCard1" tabindex="-1" role="dialog" aria-labelledby="#modalCard1" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="modal-img" src="img/trashy-blonde-menor.jpg" alt="Card image cap">
+                        <h5 class="modal-title">                        
+                            <p>TÍTULO</p>
+                            <small class="text-muted">legenda do card</small>
+
+                            <div class="porcent d-flex flex-row align-items-center">
+                                <p>IBU:</p><span>0%</span>
+                                <p>ABV:</p><span>0%</span>
+                                <p>EBC:</p><span>0%</span>
+                            </div>
+                            <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+                        </h5>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- Fim modal -->
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <i class="far fa-star"></i>
+                    <img class="card-img-top" data-toggle="modal" data-target="#modalCard2" src="img/trashy-blonde.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-title">TÍTULO</p>
+                        <p class="card-text"><small class="text-muted">legenda do card</small></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal card2-->
+            <div class="modal fade" id="modalCard2" tabindex="-1" role="dialog" aria-labelledby="#modalCard2" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="modal-img" src="img/trashy-blonde-menor.jpg" alt="Card image cap">
+                        <h5 class="modal-title">                        
+                            <p>TÍTULO</p>
+                            <small class="text-muted">legenda do card</small>
+
+                            <div class="porcent d-flex flex-row align-items-center">
+                                <p>IBU:</p><span>0%</span>
+                                <p>ABV:</p><span>0%</span>
+                                <p>EBC:</p><span>0%</span>
+                            </div>
+                            <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+                        </h5>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- Fim modal -->
+
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card">
+                    <i class="far fa-star"></i>
+                    <img class="card-img-top" data-toggle="modal" data-target="#modalCard3" src="img/trashy-blonde.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <p class="card-title">TÍTULO</p>
+                        <p class="card-text"><small class="text-muted">legenda do card</small></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal card3-->
+            <div class="modal fade" id="modalCard3" tabindex="-1" role="dialog" aria-labelledby="#modalCard3" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="modal-img" src="img/trashy-blonde-menor.jpg" alt="Card image cap">
+                        <h5 class="modal-title">                        
+                            <p>TÍTULO</p>
+                            <small class="text-muted">legenda do card</small>
+
+                            <div class="porcent d-flex flex-row align-items-center">
+                                <p>IBU:</p><span>0%</span>
+                                <p>ABV:</p><span>0%</span>
+                                <p>EBC:</p><span>0%</span>
+                            </div>
+                            <p class="text-justify">Ambitioni dedisse scripsisse iudicaretur. Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae, eu vulputate felis rhoncus. Praeterea iter est quasdam res quas ex communi. At nos hinc posthac, sitientis piros Afros. Petierunt uti sibi concilium totius Galliae in diem certam indicere. Cras mattis iudicium purus sit amet fermentum.</p>
+                        </h5>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!-- Fim modal -->
+
+            </div>
+
+        </div>
+    </div>
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; The Beer Bank V2</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
